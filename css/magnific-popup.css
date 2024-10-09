@@ -321,9 +321,6 @@ img.mfp-img {
     width: 30px;
 }
 
-#navbarNav{
-  
-}
 
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
   /**
@@ -362,7 +359,11 @@ img.mfp-img {
     background: rgba(0, 0, 0, 0.6);
     position: fixed;
     text-align: center;
-    padding: 0; } }
+    padding: 0; }
+  
+    
+
+  }
 
 
 @media all and (max-width: 900px) {
@@ -385,10 +386,18 @@ img.mfp-img {
     font-size: 30px;
     width: 100%;
   }
+
   #mb-5{
     background-color: rgb(19, 199, 154);
     font-size: 30px;
-    width: 100%;
+    
+    
+  }
+  #mb-6{
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 6px;
   }
  
 
@@ -396,5 +405,19 @@ img.mfp-img {
     height: 250px;
     
   }
+}
+
+#mb-5{
+  background-color: rgb(91, 47, 192);
+  font-size: 30px;
   
-  }
+  
+}
+#mb-6{
+  text-align: center;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 6px;
+ 
+}
+ 
